@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'screen1.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,10 +11,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
 
       theme: ThemeData.dark(),
-      home: Screen1();
+      home: Screen1(),
 
-        ),
-      ),
-    );
+        );
+
   }
 }
